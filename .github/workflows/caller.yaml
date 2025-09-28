@@ -9,5 +9,5 @@ jobs:
     uses: ./.github/workflows/original_workflow.yaml
 
   call-reusable_from_another_repo:
-    uses: shaik-byte/original-repo/.github/workflows/build.yml@main
+    uses: shaik-byte/original-repo/.github/workflows/another_repo_workflow.yaml@main
    
