@@ -1,0 +1,10 @@
+name: Main Workflow
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  caller-reusable:
+    uses: ./.github/workflows/original_workflow.yaml
+  
