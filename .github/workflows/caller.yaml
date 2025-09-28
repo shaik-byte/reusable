@@ -5,9 +5,9 @@ on:
     branches: [ "main" ]
 
 jobs:
-  caller-reusable:
-    uses: ./.github/workflows/original_workflow.yaml
+  # caller-reusable:
+  #   uses: ./.github/workflows/original_workflow.yaml
 
-  # call-reusable_from_another_repo:
-  #   uses: shaik-byte/original-repo/.github/workflows/another_repo_workflow.yaml@main
+  call-reusable_from_another_repo:
+    uses: shaik-byte/original-repo/.github/workflows/another_repo_workflow.yaml@main
    
