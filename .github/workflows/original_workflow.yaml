@@ -7,5 +7,5 @@ jobs:
   reusable-workflow:
     runs-on: ubuntu-latest
     steps:
-      - name: Run tests
+      - name: Run script from Original workflow
         run: echo "Hi, We are testing the reusable-workflow on github actions"
