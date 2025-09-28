@@ -7,4 +7,7 @@ on:
 jobs:
   caller-reusable:
     uses: ./.github/workflows/original_workflow.yaml
-  
+
+  call-reusable_from_another_repo:
+    uses: shaik-byte/original-repo/.github/workflows/build.yml@main
+   
